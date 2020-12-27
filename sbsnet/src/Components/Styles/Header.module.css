@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+}
+li a {
+  display: block;
+  padding: 20px;
+}
+li {
+  float: left;
+  background-color: lightblue;
+  color: black;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  justify-self: flex-start;
+}
