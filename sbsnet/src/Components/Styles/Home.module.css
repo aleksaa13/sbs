@@ -1,0 +1,56 @@
+.big {
+  font-size: 60px;
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.small {
+  font-size: 20px;
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  margin-top: 30px;
+}
+
+.boxes {
+  text-align: center;
+}
+.accordion {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  text-align: left;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+}
+.containers {
+  margin: 20px auto;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: block;
+  overflow: hidden;
+}
+.panel p {
+  padding: 10px 10px;
+  text-align: left;
+  background-color: #eee;
+}
+
+.invisible {
+  display: none;
+}
