@@ -60,6 +60,10 @@ nav {
   border-radius: 40%;
 }
 
+.dropdown p {
+  margin: 0;
+}
+
 .dropdownContent {
   display: none;
   width: 100%;

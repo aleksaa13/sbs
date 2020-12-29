@@ -1,0 +1,34 @@
+.small {
+  font-size: 20px;
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  margin-top: 30px;
+}
+.listaPaketa {
+  margin: 10px 0;
+}
+
+.paragraph {
+  margin-top: 50px;
+}
+
+.karte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.imageContainer {
+  height: 400px;
+  width: 40%;
+  margin-left: 30%;
+}
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}

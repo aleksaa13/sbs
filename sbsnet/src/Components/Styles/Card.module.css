@@ -1,0 +1,10 @@
+.karta {
+  margin: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+.cardButton {
+  color: blue;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

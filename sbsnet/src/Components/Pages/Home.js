@@ -5,6 +5,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+import Slider from "../Slider";
 
 const Home = () => {
   const [visible1, setVisible1] = useState(false);
@@ -22,10 +23,8 @@ const Home = () => {
       <div className={styles.big}>
         Kvalitetno rješenje<br></br> i vrhunska podrška
       </div>
-      <div className={styles.small}>
-        Izaberite paket koji zadovoljava vaše potrebe i obezbjedite sebi
-        stabilnu internet konekciju bilo gdje
-      </div>
+
+      <Slider></Slider>
       <div className={styles.boxes}>
         <div className={styles.containers}>
           <button className={styles.accordion} onClick={toggleClass1}>

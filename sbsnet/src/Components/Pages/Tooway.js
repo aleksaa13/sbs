@@ -1,5 +1,7 @@
+import React from "react";
+
 const Tooway = () => {
-  return <p>Tooway</p>;
+  return <div>Tooway</div>;
 };
 
 export default Tooway;
