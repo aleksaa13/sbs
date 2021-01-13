@@ -17,63 +17,26 @@ const Header = () => {
             <li className={styles.link}>
               <NavLink
                 exact
-                to="/"
+                to="/kontakt"
                 activeStyle={{
                   fontWeight: "bold",
-                  textDecoration: "underlined",
+                  textDecoration: "underline",
                 }}
               >
-                Početna
+                Kontakt
               </NavLink>
             </li>
 
-            <li className={styles.dropdown}>
-              <p className={styles.usluge}>
-                Usluge
-                <FontAwesomeIcon icon={faSortDown} />
-              </p>
-              <div className={styles.dropdownContent}>
-                <NavLink
-                  exact
-                  to="/pravnalica"
-                  activeStyle={{
-                    fontWeight: "bold",
-                    textDecoration: "underlined",
-                  }}
-                >
-                  Pravna Lica
-                </NavLink>
-                <NavLink
-                  exact
-                  to="/fizickalica"
-                  activeStyle={{
-                    fontWeight: "bold",
-                  }}
-                >
-                  Fizička Lica
-                </NavLink>
-
-                <NavLink
-                  exact
-                  to="/opstiuslovi"
-                  activeStyle={{
-                    fontWeight: "bold",
-                  }}
-                >
-                  Opšti Uslovi
-                </NavLink>
-              </div>
-            </li>
             <li className={styles.link}>
               <NavLink
                 exact
-                to="/tooway"
+                to="/usluge"
                 activeStyle={{
                   fontWeight: "bold",
-                  textDecoration: "underlined",
+                  textDecoration: "underline",
                 }}
               >
-                Tooway
+                Usluge
               </NavLink>
             </li>
             <li className={styles.link}>
@@ -82,7 +45,7 @@ const Header = () => {
                 to="/novosti"
                 activeStyle={{
                   fontWeight: "bold",
-                  textDecoration: "underlined",
+                  textDecoration: "underline",
                 }}
               >
                 Novosti
@@ -91,13 +54,13 @@ const Header = () => {
             <li className={styles.link}>
               <NavLink
                 exact
-                to="/kontakt"
+                to="/"
                 activeStyle={{
                   fontWeight: "bold",
-                  textDecoration: "underlined",
+                  textDecoration: "underline",
                 }}
               >
-                Kontakt
+                Početna
               </NavLink>
             </li>
           </ul>
